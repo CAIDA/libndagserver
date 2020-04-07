@@ -21,7 +21,6 @@ gcc_PACKED
 AC_CHECK_LIB([trace], [trace_get_payload_length],,trace_found=0)
 AC_CHECK_LIB([wandio], [wandio_create],,wandio_found=0)
 AC_CHECK_LIB([pthread], [pthread_create],,pthread_found=0)
-AC_CHECK_LIB([dag], [dag_attach_stream],dag_found=1,dag_found=0)
 #AC_CHECK_LIB([numa], [numa_node_of_cpu],,numa_found=0)
 
 EXTRA_LIBS=""
