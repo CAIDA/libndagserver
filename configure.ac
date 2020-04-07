@@ -2,10 +2,10 @@
 
 AC_INIT(libndagserver, 0.0.1, salcock@wand.net.nz)
 
-AM_INIT_AUTOMAKE([subdir-objects])
+AM_INIT_AUTOMAKE([foreign subdir-objects])
 AC_CONFIG_SRCDIR(ndagmulticaster.c)
 AM_CONFIG_HEADER(config.h)
-AC_CONFIG_MACRO_DIR([../m4])
+AC_CONFIG_MACRO_DIR([m4])
 
 m4_ifdef([AM_SILENT_RULES],[AM_SILENT_RULES([yes])])
 

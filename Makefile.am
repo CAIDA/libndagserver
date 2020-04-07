@@ -6,3 +6,5 @@ libndagserver_la_SOURCES=ndagmulticaster.c ndagmulticaster.h
 libndagserver_la_LIBADD = @ADD_LIBS@
 libndagserver_la_LDFLAGS = @ADD_LDFLAGS@ -version-info 0:1:0
 libndagserver_la_CPPFLAGS = -Werror
+
+ACLOCAL_AMFLAGS=-I m4

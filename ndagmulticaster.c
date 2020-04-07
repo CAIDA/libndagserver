@@ -12,7 +12,6 @@
 #include <unistd.h>
 #include <pthread.h>
 
-#include "byteswap.h"
 #include "ndagmulticaster.h"
 
 #if HAVE_SENDMMSG
