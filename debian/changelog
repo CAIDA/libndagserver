@@ -1,0 +1,6 @@
+libndagserver (0.1.0) unstable; urgency=medium
+
+  * First release of libndagserver.
+
+ -- Alistair King <software@caida.org>  Wed, 08 Apr 2020 13:29:43 -0700
+

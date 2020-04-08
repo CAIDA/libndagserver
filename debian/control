@@ -1,0 +1,22 @@
+Source: libndagserver
+Section: libs
+Priority: optional
+Maintainer: CAIDA Software Maintainer <software@caida.org>
+Build-Depends: debhelper (>= 10), autotools-dev,
+ libwandio1-dev (>=4.2.0) libtrace4-dev,
+Standards-Version: 4.1.2
+Homepage: https://github.com/CAIDA/libndagserver
+
+Package: libndagserver
+Architecture: any
+Section: libs
+Depends: libwandio1 (>=4.2.0), ${shlibs:Depends}, ${misc:Depends}
+Description: Library for multicasting network traffic traces using the nDAG
+ format.
+
+Package: libndagserver-dev
+Architecture: any
+Section: libdevel
+Depends: libwandio1-dev (>=4.2.0), ${misc:Depends}
+Description: Development environment for libndagserver, a library for
+ multicasting network traffic traces using the nDAG format.
