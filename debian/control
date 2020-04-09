@@ -16,6 +16,6 @@ Description: Library for multicasting traffic traces using the nDAG protocol.
 Package: libndagserver-dev
 Architecture: any
 Section: libdevel
-Depends: libndagserver libwandio1-dev (>=4.2.0), ${misc:Depends}
+Depends: libndagserver, libwandio1-dev (>=4.2.0), ${misc:Depends}
 Description: Development environment for libndagserver.
  Library for multicasting network traffic traces using the nDAG format.
